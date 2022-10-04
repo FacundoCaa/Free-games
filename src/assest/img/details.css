@@ -1,0 +1,111 @@
+@font-face {
+    font-family: LineFont;
+    src: url('../../fonts/bando-Regular.otf');
+}
+
+.d-container {
+    background-image: url('/src/assest/img/SprinkleHeight.svg');
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    height: 100%;
+    justify-content: center;
+}
+
+.d-title {
+    font-family: 'LineFont', monospace;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.f-container {
+    margin: 30px;
+    background-color: var(--rosa-oscuro-opacity);
+    display: grid;
+    grid-template-columns: auto;
+    border-radius: 10px;
+    border: 1px solid var(--rosa-claro);
+}
+
+.d-f-desc {
+    align-self: start;
+    margin: 10px;
+}
+
+.d-f-desc p {
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid var(--rosa-claro);
+}
+
+.d-img {
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 9px 28px 0px rgba(0,0,0,0.32);
+    height: auto;
+    width: auto;
+}
+
+.d-f-p {
+   text-align: center;
+   margin: 10px;
+}
+
+.d-p {
+    padding: 10px;
+
+}
+
+.footer {
+    padding: 15px;
+}
+
+.s-container {
+    background-color: var(--rosa-oscuro-opacity);
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--rosa-claro);
+}
+
+.features-container {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: auto;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.down-line {
+    display: in;
+    border-bottom: 1px solid var(--rosa-claro);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.download-button {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #a945c7;
+    border-radius: 10px 30px;
+    padding: 10px 5px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 15px;
+}
+
+.download-button:hover {
+    color: #fff;
+    background-color: #a945c7;
+    box-shadow: 
+    0 0 10px #a945c7,
+    0 0 40px #a945c7,
+    0 0 80px #a945c7;
+}

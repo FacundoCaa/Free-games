@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: LineFont;
+    src: url('./fonts/CONSOLAB.TTF');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --bg-color: #1a0321;
+    --bg-color-clarito: #2c3333;
+    --rosa-oscuro: #7c4f85;
+    --rosa-oscuro-opacity: #7c4f85be;
+    --rosa-claro: #b081b9;
+    --blanco: #E7F6F2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div#root {
+    background-image: url('/src/assest/img/SprinkleHeight.svg');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+    font-family: 'Roboto Mono', monospace;
 }
 
-.App-link {
-  color: #61dafb;
+.containerrepiolon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url('/src/assest/img/SprinkleHeight.svg');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+    margin: 20px;
+    background-color: var(--rosa-oscuro);;
 }
+
+.DownloadBtn {
+    background-color: var(--rosa-oscuro);;
+}
+
+.btn {
+    border-color: var(--rosa-claro);
+}
+
+.btn:active {
+    --bs-btn-active-bg: var(--rosa-claro);
+    --bs-btn-active-border-color: #fff;
+}
+
+.btn:hover {
+    --bs-btn-active-bg: var(--rosa-claro);
+    --bs-btn-active-border-color: #fff;
+}
+
+.card:hover {
+    border: 1px var(--rosa-claro) solid ;
+}
+
+.copy {
+    margin-bottom: 0px;
+    padding: 15px;
+    color: #8b8b8b;
+}
+
+.btn-outline-success {
+    color: #fff;
+}
+
+.me-2 {
+    background-color: #000;
+}
+
+.card-body {
+    background-color: var(--rosa-oscuro);;
+}
+
+.btn {
+    background-color: var(--rosa-oscuro);
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar-pinky {
+    background-image: url('/src/assest/img/Sprinkle.svg');
+    border-bottom: solid 1px #7c4f8528;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.color {
+    color: #fff;
+}
+
+.iconcontainer {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    margin-left: 30px;
+}
+
+.nav-link:hover {
+    color: var(--rosa-claro);
+    border-color: var(--rosa-claro);
+}
+
+.icon {
+    margin-top: 5px;
+}
+
+.navbar {
+    padding: 5px;
+    
+}
+
+.form-control:focus {
+    color: #fff;
+    border-color: var(--rosa-claro);
+    box-shadow: 0 0 0 .25remrgba var(--rosa-claro);
+    background-color: rgb(2, 2, 2);
+}
+
+.form-control:focus {
+    color: #fff;
+    border-color: var(--rosa-claro);
+    background-color: rgb(2, 2, 2);
+    box-shadow: 0 0 0 0.10rem rgba(236, 227, 192, 0.40);
+}
+
+.details {
+    text-decoration: none;
+    color: #fff;
+}
+.details:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link {
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
+}
+
+.navbar-toggler {
+    background-color: var(--rosa-claro);
+}
+
