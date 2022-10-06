@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Free-games/static/css/main.987f5ad0.css",
-    "main.js": "/Free-games/static/js/main.eb6d5712.js",
-    "static/media/CONSOLAB.TTF": "/Free-games/static/media/CONSOLAB.b8b7ce4336d4dddee69e.TTF",
-    "static/media/SprinkleHeight.svg": "/Free-games/static/media/SprinkleHeight.af5b11d7bfcfea2c0b87.svg",
-    "static/media/bando-Regular.otf": "/Free-games/static/media/bando-Regular.d8c201423b05cdebcb8e.otf",
-    "static/media/Sprinkle.svg": "/Free-games/static/media/Sprinkle.c2fec7a98e001e4030fa.svg",
-    "index.html": "/Free-games/index.html",
-    "main.987f5ad0.css.map": "/Free-games/static/css/main.987f5ad0.css.map",
-    "main.eb6d5712.js.map": "/Free-games/static/js/main.eb6d5712.js.map"
+    "main.css": "/static/css/main.0f90fd9c.css",
+    "main.js": "/static/js/main.2b077983.js",
+    "static/media/CONSOLAB.TTF": "/static/media/CONSOLAB.b8b7ce4336d4dddee69e.TTF",
+    "static/media/SprinkleHeight.svg": "/static/media/SprinkleHeight.af5b11d7bfcfea2c0b87.svg",
+    "static/media/bando-Regular.otf": "/static/media/bando-Regular.d8c201423b05cdebcb8e.otf",
+    "static/media/Sprinkle.svg": "/static/media/Sprinkle.c2fec7a98e001e4030fa.svg",
+    "index.html": "/index.html",
+    "main.0f90fd9c.css.map": "/static/css/main.0f90fd9c.css.map",
+    "main.2b077983.js.map": "/static/js/main.2b077983.js.map"
   },
   "entrypoints": [
-    "static/css/main.987f5ad0.css",
-    "static/js/main.eb6d5712.js"
+    "static/css/main.0f90fd9c.css",
+    "static/js/main.2b077983.js"
   ]
 }
